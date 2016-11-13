@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DB8C1691D9969A5005517B4 /* LYSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB8C1681D9969A5005517B4 /* LYSTabBarController.m */; };
+		9DB8C16E1D9982BD005517B4 /* LYSSiXianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB8C16C1D9982BD005517B4 /* LYSSiXianViewController.m */; };
+		9DB8C16F1D9982BD005517B4 /* LYSSiXianViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB8C16D1D9982BD005517B4 /* LYSSiXianViewController.xib */; };
+		9DB8C1731D9ABDD4005517B4 /* LYSAddEmotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB8C1711D9ABDD4005517B4 /* LYSAddEmotionViewController.m */; };
+		9DB8C1741D9ABDD4005517B4 /* LYSAddEmotionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB8C1721D9ABDD4005517B4 /* LYSAddEmotionViewController.xib */; };
+		9DB8C1791D9ACB34005517B4 /* LYSSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB8C1771D9ACB34005517B4 /* LYSSettingViewController.m */; };
+		9DB8C17A1D9ACB34005517B4 /* LYSSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB8C1781D9ACB34005517B4 /* LYSSettingViewController.xib */; };
+		9DB8C17E1D9ACDCD005517B4 /* LYSChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB8C17C1D9ACDCD005517B4 /* LYSChangeViewController.m */; };
+		9DB8C17F1D9ACDCD005517B4 /* LYSChangeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB8C17D1D9ACDCD005517B4 /* LYSChangeViewController.xib */; };
+		9DB8C1831D9AD099005517B4 /* LYSBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB8C1811D9AD099005517B4 /* LYSBookViewController.m */; };
+		9DB8C1841D9AD099005517B4 /* LYSBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB8C1821D9AD099005517B4 /* LYSBookViewController.xib */; };
+		9DB8C1881D9AD42C005517B4 /* LYSBookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB8C1861D9AD42C005517B4 /* LYSBookDetailViewController.m */; };
+		9DB8C1891D9AD42C005517B4 /* LYSBookDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB8C1871D9AD42C005517B4 /* LYSBookDetailViewController.xib */; };
+		AB2411E41D9223E80083227F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2411E31D9223E80083227F /* main.m */; };
+		AB2411E71D9223E80083227F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2411E61D9223E80083227F /* AppDelegate.m */; };
+		AB2411ED1D9223E80083227F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2411EB1D9223E80083227F /* Main.storyboard */; };
+		AB2411EF1D9223E80083227F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2411EE1D9223E80083227F /* Assets.xcassets */; };
+		AB2411F21D9223E80083227F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2411F01D9223E80083227F /* LaunchScreen.storyboard */; };
+		AB541BC91D928686005DC0C9 /* LYSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB541BC71D928686005DC0C9 /* LYSFirstViewController.m */; };
+		AB541BCA1D928686005DC0C9 /* LYSFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB541BC81D928686005DC0C9 /* LYSFirstViewController.xib */; };
+		AB541BCF1D9286AA005DC0C9 /* LYSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB541BCD1D9286AA005DC0C9 /* LYSSecondViewController.m */; };
+		AB541BD01D9286AA005DC0C9 /* LYSSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB541BCE1D9286AA005DC0C9 /* LYSSecondViewController.xib */; };
+		AB541BD41D9286BE005DC0C9 /* LYSThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB541BD21D9286BE005DC0C9 /* LYSThirdViewController.m */; };
+		AB541BD51D9286BE005DC0C9 /* LYSThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB541BD31D9286BE005DC0C9 /* LYSThirdViewController.xib */; };
+		AB541BD91D9286D0005DC0C9 /* LYSMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB541BD71D9286D0005DC0C9 /* LYSMeViewController.m */; };
+		AB541BDA1D9286D0005DC0C9 /* LYSMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB541BD81D9286D0005DC0C9 /* LYSMeViewController.xib */; };
+		AB541BE11D928946005DC0C9 /* LYSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB541BE01D928946005DC0C9 /* LYSBaseViewController.m */; };
+		AB6E6FA61D9A1EAA00F276ED /* UIColorEX.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E6FA51D9A1EAA00F276ED /* UIColorEX.m */; };
+		AB6E6FAB1D9A463F00F276ED /* LYSSiXuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E6FA91D9A463F00F276ED /* LYSSiXuViewController.m */; };
+		AB6E6FAC1D9A463F00F276ED /* LYSSiXuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB6E6FAA1D9A463F00F276ED /* LYSSiXuViewController.xib */; };
+		AB6E6FB01D9A550F00F276ED /* LYSLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E6FAE1D9A550F00F276ED /* LYSLaunchViewController.m */; };
+		AB6E6FB11D9A550F00F276ED /* LYSLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB6E6FAF1D9A550F00F276ED /* LYSLaunchViewController.xib */; };
+		AB6E6FB61D9A9DAA00F276ED /* LYSSiXuSkyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E6FB41D9A9DAA00F276ED /* LYSSiXuSkyViewController.m */; };
+		AB6E6FB71D9A9DAA00F276ED /* LYSSiXuSkyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB6E6FB51D9A9DAA00F276ED /* LYSSiXuSkyViewController.xib */; };
+		AB6E6FBB1D9AA3A300F276ED /* LYSSiXuEmotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E6FB91D9AA3A300F276ED /* LYSSiXuEmotionViewController.m */; };
+		AB6E6FBC1D9AA3A300F276ED /* LYSSiXuEmotionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB6E6FBA1D9AA3A300F276ED /* LYSSiXuEmotionViewController.xib */; };
+		AB71663C1D9B826900604CDC /* LYSCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB71663A1D9B826900604CDC /* LYSCameraViewController.m */; };
+		AB71663D1D9B826900604CDC /* LYSCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB71663B1D9B826900604CDC /* LYSCameraViewController.xib */; };
+		AB7166411D9B9AA000604CDC /* LYSSiLuPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB71663F1D9B9AA000604CDC /* LYSSiLuPublishViewController.m */; };
+		AB7166421D9B9AA000604CDC /* LYSSiLuPublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB7166401D9B9AA000604CDC /* LYSSiLuPublishViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DB8C1671D9969A5005517B4 /* LYSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSTabBarController.h; sourceTree = "<group>"; };
+		9DB8C1681D9969A5005517B4 /* LYSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSTabBarController.m; sourceTree = "<group>"; };
+		9DB8C16B1D9982BD005517B4 /* LYSSiXianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSSiXianViewController.h; sourceTree = "<group>"; };
+		9DB8C16C1D9982BD005517B4 /* LYSSiXianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSSiXianViewController.m; sourceTree = "<group>"; };
+		9DB8C16D1D9982BD005517B4 /* LYSSiXianViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSSiXianViewController.xib; sourceTree = "<group>"; };
+		9DB8C1701D9ABDD4005517B4 /* LYSAddEmotionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSAddEmotionViewController.h; sourceTree = "<group>"; };
+		9DB8C1711D9ABDD4005517B4 /* LYSAddEmotionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSAddEmotionViewController.m; sourceTree = "<group>"; };
+		9DB8C1721D9ABDD4005517B4 /* LYSAddEmotionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSAddEmotionViewController.xib; sourceTree = "<group>"; };
+		9DB8C1761D9ACB34005517B4 /* LYSSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSSettingViewController.h; sourceTree = "<group>"; };
+		9DB8C1771D9ACB34005517B4 /* LYSSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSSettingViewController.m; sourceTree = "<group>"; };
+		9DB8C1781D9ACB34005517B4 /* LYSSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSSettingViewController.xib; sourceTree = "<group>"; };
+		9DB8C17B1D9ACDCD005517B4 /* LYSChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSChangeViewController.h; sourceTree = "<group>"; };
+		9DB8C17C1D9ACDCD005517B4 /* LYSChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSChangeViewController.m; sourceTree = "<group>"; };
+		9DB8C17D1D9ACDCD005517B4 /* LYSChangeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSChangeViewController.xib; sourceTree = "<group>"; };
+		9DB8C1801D9AD099005517B4 /* LYSBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSBookViewController.h; sourceTree = "<group>"; };
+		9DB8C1811D9AD099005517B4 /* LYSBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSBookViewController.m; sourceTree = "<group>"; };
+		9DB8C1821D9AD099005517B4 /* LYSBookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSBookViewController.xib; sourceTree = "<group>"; };
+		9DB8C1851D9AD42C005517B4 /* LYSBookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSBookDetailViewController.h; sourceTree = "<group>"; };
+		9DB8C1861D9AD42C005517B4 /* LYSBookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSBookDetailViewController.m; sourceTree = "<group>"; };
+		9DB8C1871D9AD42C005517B4 /* LYSBookDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSBookDetailViewController.xib; sourceTree = "<group>"; };
+		AB2411DF1D9223E80083227F /* NewTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2411E31D9223E80083227F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB2411E51D9223E80083227F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB2411E61D9223E80083227F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB2411EC1D9223E80083227F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB2411EE1D9223E80083227F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB2411F11D9223E80083227F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB2411F31D9223E80083227F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB541BC61D928686005DC0C9 /* LYSFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSFirstViewController.h; sourceTree = "<group>"; };
+		AB541BC71D928686005DC0C9 /* LYSFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSFirstViewController.m; sourceTree = "<group>"; };
+		AB541BC81D928686005DC0C9 /* LYSFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSFirstViewController.xib; sourceTree = "<group>"; };
+		AB541BCC1D9286AA005DC0C9 /* LYSSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSSecondViewController.h; sourceTree = "<group>"; };
+		AB541BCD1D9286AA005DC0C9 /* LYSSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSSecondViewController.m; sourceTree = "<group>"; };
+		AB541BCE1D9286AA005DC0C9 /* LYSSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSSecondViewController.xib; sourceTree = "<group>"; };
+		AB541BD11D9286BE005DC0C9 /* LYSThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSThirdViewController.h; sourceTree = "<group>"; };
+		AB541BD21D9286BE005DC0C9 /* LYSThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSThirdViewController.m; sourceTree = "<group>"; };
+		AB541BD31D9286BE005DC0C9 /* LYSThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSThirdViewController.xib; sourceTree = "<group>"; };
+		AB541BD61D9286D0005DC0C9 /* LYSMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSMeViewController.h; sourceTree = "<group>"; };
+		AB541BD71D9286D0005DC0C9 /* LYSMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSMeViewController.m; sourceTree = "<group>"; };
+		AB541BD81D9286D0005DC0C9 /* LYSMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSMeViewController.xib; sourceTree = "<group>"; };
+		AB541BDD1D928828005DC0C9 /* GlobalValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalValue.h; sourceTree = "<group>"; };
+		AB541BDF1D928946005DC0C9 /* LYSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSBaseViewController.h; sourceTree = "<group>"; };
+		AB541BE01D928946005DC0C9 /* LYSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSBaseViewController.m; sourceTree = "<group>"; };
+		AB6E6FA41D9A1EAA00F276ED /* UIColorEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorEX.h; sourceTree = "<group>"; };
+		AB6E6FA51D9A1EAA00F276ED /* UIColorEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorEX.m; sourceTree = "<group>"; };
+		AB6E6FA81D9A463F00F276ED /* LYSSiXuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSSiXuViewController.h; sourceTree = "<group>"; };
+		AB6E6FA91D9A463F00F276ED /* LYSSiXuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSSiXuViewController.m; sourceTree = "<group>"; };
+		AB6E6FAA1D9A463F00F276ED /* LYSSiXuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSSiXuViewController.xib; sourceTree = "<group>"; };
+		AB6E6FAD1D9A550F00F276ED /* LYSLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSLaunchViewController.h; sourceTree = "<group>"; };
+		AB6E6FAE1D9A550F00F276ED /* LYSLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSLaunchViewController.m; sourceTree = "<group>"; };
+		AB6E6FAF1D9A550F00F276ED /* LYSLaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSLaunchViewController.xib; sourceTree = "<group>"; };
+		AB6E6FB31D9A9DA900F276ED /* LYSSiXuSkyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSSiXuSkyViewController.h; sourceTree = "<group>"; };
+		AB6E6FB41D9A9DAA00F276ED /* LYSSiXuSkyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSSiXuSkyViewController.m; sourceTree = "<group>"; };
+		AB6E6FB51D9A9DAA00F276ED /* LYSSiXuSkyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSSiXuSkyViewController.xib; sourceTree = "<group>"; };
+		AB6E6FB81D9AA3A300F276ED /* LYSSiXuEmotionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSSiXuEmotionViewController.h; sourceTree = "<group>"; };
+		AB6E6FB91D9AA3A300F276ED /* LYSSiXuEmotionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSSiXuEmotionViewController.m; sourceTree = "<group>"; };
+		AB6E6FBA1D9AA3A300F276ED /* LYSSiXuEmotionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSSiXuEmotionViewController.xib; sourceTree = "<group>"; };
+		AB7166391D9B826900604CDC /* LYSCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSCameraViewController.h; sourceTree = "<group>"; };
+		AB71663A1D9B826900604CDC /* LYSCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSCameraViewController.m; sourceTree = "<group>"; };
+		AB71663B1D9B826900604CDC /* LYSCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSCameraViewController.xib; sourceTree = "<group>"; };
+		AB71663E1D9B9AA000604CDC /* LYSSiLuPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSSiLuPublishViewController.h; sourceTree = "<group>"; };
+		AB71663F1D9B9AA000604CDC /* LYSSiLuPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSSiLuPublishViewController.m; sourceTree = "<group>"; };
+		AB7166401D9B9AA000604CDC /* LYSSiLuPublishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSSiLuPublishViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB2411DC1D9223E80083227F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DB8C16A1D99828D005517B4 /* SiXian */ = {
+			isa = PBXGroup;
+			children = (
+				9DB8C16B1D9982BD005517B4 /* LYSSiXianViewController.h */,
+				9DB8C16C1D9982BD005517B4 /* LYSSiXianViewController.m */,
+				9DB8C16D1D9982BD005517B4 /* LYSSiXianViewController.xib */,
+			);
+			name = SiXian;
+			sourceTree = "<group>";
+		};
+		9DB8C1751D9ACB1C005517B4 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				9DB8C1761D9ACB34005517B4 /* LYSSettingViewController.h */,
+				9DB8C1771D9ACB34005517B4 /* LYSSettingViewController.m */,
+				9DB8C1781D9ACB34005517B4 /* LYSSettingViewController.xib */,
+				9DB8C17B1D9ACDCD005517B4 /* LYSChangeViewController.h */,
+				9DB8C17C1D9ACDCD005517B4 /* LYSChangeViewController.m */,
+				9DB8C17D1D9ACDCD005517B4 /* LYSChangeViewController.xib */,
+				9DB8C1801D9AD099005517B4 /* LYSBookViewController.h */,
+				9DB8C1811D9AD099005517B4 /* LYSBookViewController.m */,
+				9DB8C1821D9AD099005517B4 /* LYSBookViewController.xib */,
+				9DB8C1851D9AD42C005517B4 /* LYSBookDetailViewController.h */,
+				9DB8C1861D9AD42C005517B4 /* LYSBookDetailViewController.m */,
+				9DB8C1871D9AD42C005517B4 /* LYSBookDetailViewController.xib */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		AB2411D61D9223E80083227F = {
+			isa = PBXGroup;
+			children = (
+				AB2411E11D9223E80083227F /* NewTry */,
+				AB2411E01D9223E80083227F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB2411E01D9223E80083227F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB2411DF1D9223E80083227F /* NewTry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB2411E11D9223E80083227F /* NewTry */ = {
+			isa = PBXGroup;
+			children = (
+				AB541BC51D92864A005DC0C9 /* Base */,
+				AB541BC41D928637005DC0C9 /* Module */,
+				AB2411E51D9223E80083227F /* AppDelegate.h */,
+				AB2411E61D9223E80083227F /* AppDelegate.m */,
+				AB2411E21D9223E80083227F /* Supporting Files */,
+			);
+			path = NewTry;
+			sourceTree = "<group>";
+		};
+		AB2411E21D9223E80083227F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB2411EB1D9223E80083227F /* Main.storyboard */,
+				AB2411EE1D9223E80083227F /* Assets.xcassets */,
+				AB2411F01D9223E80083227F /* LaunchScreen.storyboard */,
+				AB2411F31D9223E80083227F /* Info.plist */,
+				AB2411E31D9223E80083227F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB541BC41D928637005DC0C9 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				AB7166381D9B825300604CDC /* SiLu */,
+				9DB8C1751D9ACB1C005517B4 /* Me */,
+				AB6E6FA71D9A462000F276ED /* SiXu */,
+				9DB8C16A1D99828D005517B4 /* SiXian */,
+				AB541BDE1D928927005DC0C9 /* Component */,
+				AB541BDB1D9286DC005DC0C9 /* MainVC */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+		AB541BC51D92864A005DC0C9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AB6E6FA31D9A1E8800F276ED /* Extension */,
+				AB541BDD1D928828005DC0C9 /* GlobalValue.h */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		AB541BCB1D92868C005DC0C9 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				AB541BC81D928686005DC0C9 /* LYSFirstViewController.xib */,
+				AB541BCE1D9286AA005DC0C9 /* LYSSecondViewController.xib */,
+				AB541BD31D9286BE005DC0C9 /* LYSThirdViewController.xib */,
+				AB541BD81D9286D0005DC0C9 /* LYSMeViewController.xib */,
+				AB6E6FAF1D9A550F00F276ED /* LYSLaunchViewController.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		AB541BDB1D9286DC005DC0C9 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				AB541BCB1D92868C005DC0C9 /* Xib */,
+				AB541BC61D928686005DC0C9 /* LYSFirstViewController.h */,
+				AB541BC71D928686005DC0C9 /* LYSFirstViewController.m */,
+				AB541BCC1D9286AA005DC0C9 /* LYSSecondViewController.h */,
+				AB541BCD1D9286AA005DC0C9 /* LYSSecondViewController.m */,
+				AB541BD11D9286BE005DC0C9 /* LYSThirdViewController.h */,
+				AB541BD21D9286BE005DC0C9 /* LYSThirdViewController.m */,
+				AB541BD61D9286D0005DC0C9 /* LYSMeViewController.h */,
+				AB541BD71D9286D0005DC0C9 /* LYSMeViewController.m */,
+				AB6E6FAD1D9A550F00F276ED /* LYSLaunchViewController.h */,
+				AB6E6FAE1D9A550F00F276ED /* LYSLaunchViewController.m */,
+			);
+			name = MainVC;
+			sourceTree = "<group>";
+		};
+		AB541BDE1D928927005DC0C9 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				AB541BDF1D928946005DC0C9 /* LYSBaseViewController.h */,
+				AB541BE01D928946005DC0C9 /* LYSBaseViewController.m */,
+				9DB8C1671D9969A5005517B4 /* LYSTabBarController.h */,
+				9DB8C1681D9969A5005517B4 /* LYSTabBarController.m */,
+			);
+			name = Component;
+			sourceTree = "<group>";
+		};
+		AB6E6FA31D9A1E8800F276ED /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AB6E6FA41D9A1EAA00F276ED /* UIColorEX.h */,
+				AB6E6FA51D9A1EAA00F276ED /* UIColorEX.m */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		AB6E6FA71D9A462000F276ED /* SiXu */ = {
+			isa = PBXGroup;
+			children = (
+				AB6E6FA81D9A463F00F276ED /* LYSSiXuViewController.h */,
+				AB6E6FA91D9A463F00F276ED /* LYSSiXuViewController.m */,
+				AB6E6FAA1D9A463F00F276ED /* LYSSiXuViewController.xib */,
+				AB6E6FB31D9A9DA900F276ED /* LYSSiXuSkyViewController.h */,
+				AB6E6FB41D9A9DAA00F276ED /* LYSSiXuSkyViewController.m */,
+				AB6E6FB51D9A9DAA00F276ED /* LYSSiXuSkyViewController.xib */,
+				AB6E6FB81D9AA3A300F276ED /* LYSSiXuEmotionViewController.h */,
+				AB6E6FB91D9AA3A300F276ED /* LYSSiXuEmotionViewController.m */,
+				AB6E6FBA1D9AA3A300F276ED /* LYSSiXuEmotionViewController.xib */,
+				9DB8C1701D9ABDD4005517B4 /* LYSAddEmotionViewController.h */,
+				9DB8C1711D9ABDD4005517B4 /* LYSAddEmotionViewController.m */,
+				9DB8C1721D9ABDD4005517B4 /* LYSAddEmotionViewController.xib */,
+			);
+			name = SiXu;
+			sourceTree = "<group>";
+		};
+		AB7166381D9B825300604CDC /* SiLu */ = {
+			isa = PBXGroup;
+			children = (
+				AB7166391D9B826900604CDC /* LYSCameraViewController.h */,
+				AB71663A1D9B826900604CDC /* LYSCameraViewController.m */,
+				AB71663B1D9B826900604CDC /* LYSCameraViewController.xib */,
+				AB71663E1D9B9AA000604CDC /* LYSSiLuPublishViewController.h */,
+				AB71663F1D9B9AA000604CDC /* LYSSiLuPublishViewController.m */,
+				AB7166401D9B9AA000604CDC /* LYSSiLuPublishViewController.xib */,
+			);
+			name = SiLu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB2411DE1D9223E80083227F /* NewTry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2411F61D9223E80083227F /* Build configuration list for PBXNativeTarget "NewTry" */;
+			buildPhases = (
+				AB2411DB1D9223E80083227F /* Sources */,
+				AB2411DC1D9223E80083227F /* Frameworks */,
+				AB2411DD1D9223E80083227F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewTry;
+			productName = NewTry;
+			productReference = AB2411DF1D9223E80083227F /* NewTry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB2411D71D9223E80083227F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = bingolin;
+				TargetAttributes = {
+					AB2411DE1D9223E80083227F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z6AGZ494AH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AB2411DA1D9223E80083227F /* Build configuration list for PBXProject "NewTry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB2411D61D9223E80083227F;
+			productRefGroup = AB2411E01D9223E80083227F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB2411DE1D9223E80083227F /* NewTry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB2411DD1D9223E80083227F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2411F21D9223E80083227F /* LaunchScreen.storyboard in Resources */,
+				AB6E6FB71D9A9DAA00F276ED /* LYSSiXuSkyViewController.xib in Resources */,
+				AB541BD01D9286AA005DC0C9 /* LYSSecondViewController.xib in Resources */,
+				9DB8C17F1D9ACDCD005517B4 /* LYSChangeViewController.xib in Resources */,
+				9DB8C1891D9AD42C005517B4 /* LYSBookDetailViewController.xib in Resources */,
+				AB2411EF1D9223E80083227F /* Assets.xcassets in Resources */,
+				AB541BDA1D9286D0005DC0C9 /* LYSMeViewController.xib in Resources */,
+				AB541BD51D9286BE005DC0C9 /* LYSThirdViewController.xib in Resources */,
+				9DB8C17A1D9ACB34005517B4 /* LYSSettingViewController.xib in Resources */,
+				AB541BCA1D928686005DC0C9 /* LYSFirstViewController.xib in Resources */,
+				AB6E6FB11D9A550F00F276ED /* LYSLaunchViewController.xib in Resources */,
+				AB6E6FBC1D9AA3A300F276ED /* LYSSiXuEmotionViewController.xib in Resources */,
+				AB2411ED1D9223E80083227F /* Main.storyboard in Resources */,
+				9DB8C1841D9AD099005517B4 /* LYSBookViewController.xib in Resources */,
+				AB6E6FAC1D9A463F00F276ED /* LYSSiXuViewController.xib in Resources */,
+				9DB8C16F1D9982BD005517B4 /* LYSSiXianViewController.xib in Resources */,
+				AB71663D1D9B826900604CDC /* LYSCameraViewController.xib in Resources */,
+				9DB8C1741D9ABDD4005517B4 /* LYSAddEmotionViewController.xib in Resources */,
+				AB7166421D9B9AA000604CDC /* LYSSiLuPublishViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB2411DB1D9223E80083227F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB71663C1D9B826900604CDC /* LYSCameraViewController.m in Sources */,
+				AB541BC91D928686005DC0C9 /* LYSFirstViewController.m in Sources */,
+				AB541BE11D928946005DC0C9 /* LYSBaseViewController.m in Sources */,
+				AB7166411D9B9AA000604CDC /* LYSSiLuPublishViewController.m in Sources */,
+				AB541BD91D9286D0005DC0C9 /* LYSMeViewController.m in Sources */,
+				9DB8C16E1D9982BD005517B4 /* LYSSiXianViewController.m in Sources */,
+				AB2411E71D9223E80083227F /* AppDelegate.m in Sources */,
+				AB2411E41D9223E80083227F /* main.m in Sources */,
+				AB6E6FB61D9A9DAA00F276ED /* LYSSiXuSkyViewController.m in Sources */,
+				AB6E6FB01D9A550F00F276ED /* LYSLaunchViewController.m in Sources */,
+				AB6E6FA61D9A1EAA00F276ED /* UIColorEX.m in Sources */,
+				9DB8C1691D9969A5005517B4 /* LYSTabBarController.m in Sources */,
+				9DB8C1791D9ACB34005517B4 /* LYSSettingViewController.m in Sources */,
+				9DB8C17E1D9ACDCD005517B4 /* LYSChangeViewController.m in Sources */,
+				9DB8C1731D9ABDD4005517B4 /* LYSAddEmotionViewController.m in Sources */,
+				9DB8C1881D9AD42C005517B4 /* LYSBookDetailViewController.m in Sources */,
+				AB541BD41D9286BE005DC0C9 /* LYSThirdViewController.m in Sources */,
+				9DB8C1831D9AD099005517B4 /* LYSBookViewController.m in Sources */,
+				AB541BCF1D9286AA005DC0C9 /* LYSSecondViewController.m in Sources */,
+				AB6E6FBB1D9AA3A300F276ED /* LYSSiXuEmotionViewController.m in Sources */,
+				AB6E6FAB1D9A463F00F276ED /* LYSSiXuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB2411EB1D9223E80083227F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB2411EC1D9223E80083227F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB2411F01D9223E80083227F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB2411F11D9223E80083227F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB2411F41D9223E80083227F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB2411F51D9223E80083227F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB2411F71D9223E80083227F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z6AGZ494AH;
+				INFOPLIST_FILE = NewTry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingo.silu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB2411F81D9223E80083227F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z6AGZ494AH;
+				INFOPLIST_FILE = NewTry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingo.silu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB2411DA1D9223E80083227F /* Build configuration list for PBXProject "NewTry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2411F41D9223E80083227F /* Debug */,
+				AB2411F51D9223E80083227F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2411F61D9223E80083227F /* Build configuration list for PBXNativeTarget "NewTry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2411F71D9223E80083227F /* Debug */,
+				AB2411F81D9223E80083227F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB2411D71D9223E80083227F /* Project object */;
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LYSMeViewController">
+            <connections>
+                <outlet property="bookBtn" destination="kUb-gg-GbG" id="6xb-LT-S4l"/>
+                <outlet property="changeBtn" destination="aoB-nc-QsS" id="YSH-FL-aEW"/>
+                <outlet property="settingBtn" destination="EyB-Cn-vB7" id="keF-cP-CAb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="me_avatar" translatesAutoresizingMaskIntoConstraints="NO" id="LpR-uy-1GV">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="LpR-uy-1GV" secondAttribute="height" multiplier="110:103" id="L2l-kt-TBl"/>
+                        <constraint firstAttribute="width" constant="110" id="Pt6-oi-fEN"/>
+                        <constraint firstAttribute="height" constant="103" id="qX9-D3-YlR"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="宋欣_Song" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qbp-Zn-bdg">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Jic-TI-Swg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUb-gg-GbG">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="kUb-gg-GbG" secondAttribute="height" multiplier="25:4" id="wWo-of-R4S"/>
+                    </constraints>
+                    <state key="normal" image="me_book"/>
+                    <connections>
+                        <action selector="tapBook:" destination="-1" eventType="touchUpInside" id="fcn-gi-Iqp"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aoB-nc-QsS">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="aoB-nc-QsS" secondAttribute="height" multiplier="25:4" id="6vZ-ml-nWf"/>
+                    </constraints>
+                    <state key="normal" image="me_change"/>
+                    <connections>
+                        <action selector="tapChange:" destination="-1" eventType="touchUpInside" id="nfB-dU-HY4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EyB-Cn-vB7">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="EyB-Cn-vB7" secondAttribute="height" multiplier="25:4" id="IOp-Pc-ajq"/>
+                    </constraints>
+                    <state key="normal" image="me_settings"/>
+                    <connections>
+                        <action selector="tapSettings:" destination="-1" eventType="touchUpInside" id="xNs-xj-0j9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="kUb-gg-GbG" secondAttribute="trailing" id="0Tu-v0-3AW"/>
+                <constraint firstAttribute="trailing" secondItem="aoB-nc-QsS" secondAttribute="trailing" id="0gZ-MT-4Mf"/>
+                <constraint firstItem="aoB-nc-QsS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7NO-Pd-vEy"/>
+                <constraint firstItem="kUb-gg-GbG" firstAttribute="top" secondItem="Qbp-Zn-bdg" secondAttribute="bottom" constant="51" id="7eu-OE-Jsb"/>
+                <constraint firstItem="LpR-uy-1GV" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="81" id="8dR-TM-Ezz"/>
+                <constraint firstItem="Qbp-Zn-bdg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="FYb-Zf-l1N"/>
+                <constraint firstItem="kUb-gg-GbG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HMA-WR-z20"/>
+                <constraint firstAttribute="trailing" secondItem="EyB-Cn-vB7" secondAttribute="trailing" id="Jbb-jx-f0v"/>
+                <constraint firstItem="aoB-nc-QsS" firstAttribute="top" secondItem="kUb-gg-GbG" secondAttribute="bottom" constant="-3" id="MJF-X6-blZ"/>
+                <constraint firstItem="EyB-Cn-vB7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="UoT-vZ-vWR"/>
+                <constraint firstAttribute="trailing" secondItem="Qbp-Zn-bdg" secondAttribute="trailing" id="bMh-k8-inE"/>
+                <constraint firstItem="EyB-Cn-vB7" firstAttribute="top" secondItem="aoB-nc-QsS" secondAttribute="bottom" constant="-2" id="hZp-on-PbA"/>
+                <constraint firstItem="Qbp-Zn-bdg" firstAttribute="top" secondItem="LpR-uy-1GV" secondAttribute="bottom" constant="12" id="sLq-L4-eaL"/>
+                <constraint firstItem="LpR-uy-1GV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="132" id="wck-6y-hf6"/>
+                <constraint firstAttribute="trailing" secondItem="LpR-uy-1GV" secondAttribute="trailing" constant="133" id="zzP-tz-Cej"/>
+            </constraints>
+            <point key="canvasLocation" x="35.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="me_avatar" width="110" height="103"/>
+        <image name="me_book" width="375" height="58"/>
+        <image name="me_change" width="375" height="58"/>
+        <image name="me_settings" width="375" height="59"/>
+    </resources>
+</document>

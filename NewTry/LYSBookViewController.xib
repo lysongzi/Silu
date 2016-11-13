@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LYSBookViewController">
+            <connections>
+                <outlet property="first" destination="jT6-vx-f2d" id="uQG-85-vOZ"/>
+                <outlet property="headView" destination="jbY-DY-6Mg" id="X1q-I8-qBZ"/>
+                <outlet property="second" destination="41b-pr-zMi" id="mtA-ap-SMs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jbY-DY-6Mg">
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Edo-eH-0gy">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="Wgg-Kn-cGo"/>
+                                <constraint firstAttribute="width" constant="40" id="gZ4-Zd-W1f"/>
+                            </constraints>
+                            <state key="normal" image="white_backBtn"/>
+                            <connections>
+                                <action selector="tapBackBtn:" destination="-1" eventType="touchUpInside" id="QGQ-KP-Hjh"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="纪念册" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ui7-a9-rrE">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="gbp-yP-bsd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Ui7-a9-rrE" secondAttribute="trailing" id="7gh-cT-k12"/>
+                        <constraint firstAttribute="bottom" secondItem="Ui7-a9-rrE" secondAttribute="bottom" id="9Zp-Tz-Xwe"/>
+                        <constraint firstAttribute="bottom" secondItem="Edo-eH-0gy" secondAttribute="bottom" constant="4" id="GJY-Xo-XfQ"/>
+                        <constraint firstAttribute="height" constant="64" id="gpO-Lf-OL2"/>
+                        <constraint firstItem="Edo-eH-0gy" firstAttribute="leading" secondItem="jbY-DY-6Mg" secondAttribute="leading" constant="8" id="hKZ-AA-uzQ"/>
+                        <constraint firstItem="Ui7-a9-rrE" firstAttribute="leading" secondItem="jbY-DY-6Mg" secondAttribute="leading" id="lSr-gv-PWQ"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book_bkg0" translatesAutoresizingMaskIntoConstraints="NO" id="AIS-XT-r35"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3DM-9k-5O8">
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="Vcm-9L-yek"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book_bkg" translatesAutoresizingMaskIntoConstraints="NO" id="jT6-vx-f2d">
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book_bkg1" translatesAutoresizingMaskIntoConstraints="NO" id="41b-pr-zMi">
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="41b-pr-zMi" firstAttribute="leading" secondItem="jT6-vx-f2d" secondAttribute="trailing" constant="8" id="6X9-rG-TVC"/>
+                <constraint firstItem="41b-pr-zMi" firstAttribute="baseline" secondItem="jT6-vx-f2d" secondAttribute="baseline" id="9di-70-urb"/>
+                <constraint firstItem="41b-pr-zMi" firstAttribute="height" secondItem="jT6-vx-f2d" secondAttribute="height" id="EHE-HS-dhf"/>
+                <constraint firstItem="jbY-DY-6Mg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="UjT-Er-CrQ"/>
+                <constraint firstItem="3DM-9k-5O8" firstAttribute="top" secondItem="jbY-DY-6Mg" secondAttribute="bottom" id="YTi-0g-spm"/>
+                <constraint firstAttribute="trailing" secondItem="3DM-9k-5O8" secondAttribute="trailing" id="ZXs-tF-PiR"/>
+                <constraint firstItem="AIS-XT-r35" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aWG-z8-ysh"/>
+                <constraint firstAttribute="trailing" secondItem="41b-pr-zMi" secondAttribute="trailing" constant="9" id="bO1-vd-dDX"/>
+                <constraint firstItem="jT6-vx-f2d" firstAttribute="top" secondItem="3DM-9k-5O8" secondAttribute="bottom" constant="13.5" id="cj7-vW-WYs"/>
+                <constraint firstItem="jbY-DY-6Mg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="duD-Gz-be2"/>
+                <constraint firstAttribute="bottom" secondItem="AIS-XT-r35" secondAttribute="bottom" id="eU8-y5-tgn"/>
+                <constraint firstAttribute="trailing" secondItem="jbY-DY-6Mg" secondAttribute="trailing" id="eZI-bg-JxW"/>
+                <constraint firstItem="AIS-XT-r35" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="flw-LI-YWH"/>
+                <constraint firstItem="41b-pr-zMi" firstAttribute="top" secondItem="jT6-vx-f2d" secondAttribute="bottom" constant="-279" id="gdb-3T-yL5"/>
+                <constraint firstItem="3DM-9k-5O8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jgf-pG-TUs"/>
+                <constraint firstItem="41b-pr-zMi" firstAttribute="width" secondItem="jT6-vx-f2d" secondAttribute="width" id="qES-TA-hGF"/>
+                <constraint firstItem="41b-pr-zMi" firstAttribute="top" secondItem="3DM-9k-5O8" secondAttribute="bottom" constant="13.5" id="rAF-Jm-q66"/>
+                <constraint firstAttribute="trailing" secondItem="AIS-XT-r35" secondAttribute="trailing" id="tPE-VB-RRX"/>
+                <constraint firstItem="jT6-vx-f2d" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="wtw-B0-FVy"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="book_bkg" width="179" height="285"/>
+        <image name="book_bkg0" width="750" height="1334"/>
+        <image name="book_bkg1" width="178" height="292"/>
+        <image name="white_backBtn" width="44" height="31"/>
+    </resources>
+</document>

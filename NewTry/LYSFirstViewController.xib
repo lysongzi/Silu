@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LYSFirstViewController">
+            <connections>
+                <outlet property="scrollView" destination="cCf-dJ-EoE" id="1h7-Cy-ryB"/>
+                <outlet property="sline" destination="KLR-1P-rnc" id="F42-yd-fYw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cCf-dJ-EoE"/>
+                <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellow_bar" translatesAutoresizingMaskIntoConstraints="NO" id="WIH-M2-cJv">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="jYD-3F-GRO"/>
+                    </constraints>
+                </imageView>
+                <view alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EuG-UH-tni">
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o3E-e9-4ST">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="36" id="eta-BY-ZXr"/>
+                                <constraint firstAttribute="height" constant="36" id="iHX-wU-9yy"/>
+                            </constraints>
+                            <state key="normal" image="photo"/>
+                            <connections>
+                                <action selector="tapPhoto:" destination="-1" eventType="touchUpInside" id="4N4-FP-C7C"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="思线" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZb-UJ-4P0">
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <color key="highlightedColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="EZb-UJ-4P0" firstAttribute="centerX" secondItem="EuG-UH-tni" secondAttribute="centerX" id="4w9-L0-Vdf"/>
+                        <constraint firstItem="o3E-e9-4ST" firstAttribute="top" secondItem="EuG-UH-tni" secondAttribute="top" constant="24" id="D68-gK-btX"/>
+                        <constraint firstAttribute="height" constant="64" id="Kau-wu-lxn"/>
+                        <constraint firstAttribute="trailing" secondItem="EZb-UJ-4P0" secondAttribute="trailing" id="Myd-cW-HbD"/>
+                        <constraint firstAttribute="bottom" secondItem="EZb-UJ-4P0" secondAttribute="bottom" id="ORE-n5-oTc"/>
+                        <constraint firstItem="EZb-UJ-4P0" firstAttribute="top" secondItem="EuG-UH-tni" secondAttribute="top" constant="20" id="UBP-fE-Zev"/>
+                        <constraint firstItem="o3E-e9-4ST" firstAttribute="leading" secondItem="EuG-UH-tni" secondAttribute="leading" constant="12" id="XKM-eS-VmY"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KLR-1P-rnc">
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="24q-yx-9Jv"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="KLR-1P-rnc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="257-rY-7zR"/>
+                <constraint firstItem="WIH-M2-cJv" firstAttribute="top" secondItem="KLR-1P-rnc" secondAttribute="bottom" id="5IJ-x5-tKH"/>
+                <constraint firstAttribute="trailing" secondItem="cCf-dJ-EoE" secondAttribute="trailing" id="8c4-uS-rOz"/>
+                <constraint firstAttribute="trailing" secondItem="EuG-UH-tni" secondAttribute="trailing" id="BmQ-9L-VzJ"/>
+                <constraint firstItem="KLR-1P-rnc" firstAttribute="top" secondItem="EuG-UH-tni" secondAttribute="bottom" id="KDz-yh-CuU"/>
+                <constraint firstItem="EuG-UH-tni" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="MDU-Wy-WTt"/>
+                <constraint firstItem="cCf-dJ-EoE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ODj-X4-sfk"/>
+                <constraint firstItem="WIH-M2-cJv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="W30-JX-ca4"/>
+                <constraint firstItem="cCf-dJ-EoE" firstAttribute="top" secondItem="KLR-1P-rnc" secondAttribute="bottom" constant="-1" id="Z6R-Z3-d17"/>
+                <constraint firstItem="EuG-UH-tni" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cSC-DC-kMI"/>
+                <constraint firstAttribute="bottom" secondItem="cCf-dJ-EoE" secondAttribute="bottom" id="lfT-Dr-5dR"/>
+                <constraint firstAttribute="trailing" secondItem="WIH-M2-cJv" secondAttribute="trailing" id="lgJ-TB-ROd"/>
+                <constraint firstAttribute="trailing" secondItem="KLR-1P-rnc" secondAttribute="trailing" id="tIN-7b-kg2"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+            <point key="canvasLocation" x="25.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="photo" width="36" height="40"/>
+        <image name="yellow_bar" width="375" height="43"/>
+    </resources>
+</document>

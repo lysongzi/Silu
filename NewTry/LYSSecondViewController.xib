@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LYSSecondViewController">
+            <connections>
+                <outlet property="camera" destination="E0E-Bh-Wmp" id="SfN-c6-XvO"/>
+                <outlet property="downView" destination="Ygv-mP-N0T" id="lc4-f4-5Ck"/>
+                <outlet property="leftImageView" destination="PkX-wW-N0v" id="Jpn-ET-yCo"/>
+                <outlet property="mengView" destination="oMf-v1-Zsf" id="lws-fO-QJ7"/>
+                <outlet property="pageControl" destination="3SN-OP-kcM" id="hIi-Uf-vUL"/>
+                <outlet property="scrollView" destination="gID-j3-DRt" id="C9L-We-EcW"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="silu_map" translatesAutoresizingMaskIntoConstraints="NO" id="KHQ-p8-i3x"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTc-2k-nvK">
+                    <state key="normal" image="silu_book"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33a-LB-z6j">
+                    <state key="normal" image="silu_movie"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBG-Hd-Rci">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="LBG-Hd-Rci" secondAttribute="height" multiplier="52:47" id="SbZ-F5-fP5"/>
+                    </constraints>
+                    <state key="normal" image="silu_supermarket"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="06D-Up-zdd">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="7Y3-Ey-uT8"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="silu_park"/>
+                    <connections>
+                        <action selector="tapBtn:" destination="-1" eventType="touchUpInside" id="zcS-8W-4GU"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="silu_flower" translatesAutoresizingMaskIntoConstraints="NO" id="LJ3-wr-VuN">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="116" id="MYa-g0-mpb"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="silu_address" translatesAutoresizingMaskIntoConstraints="NO" id="7iX-tO-kN7"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="silu_address" translatesAutoresizingMaskIntoConstraints="NO" id="hBU-YM-96C"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="silu_location" translatesAutoresizingMaskIntoConstraints="NO" id="fVR-YK-bL7">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="68" id="Kic-5A-G8b"/>
+                        <constraint firstAttribute="width" constant="62" id="YbE-r6-njV"/>
+                    </constraints>
+                </imageView>
+                <view alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fDl-yU-sxu">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="思路" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXp-Xv-LGD">
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="fXp-Xv-LGD" secondAttribute="bottom" id="FOr-7m-bMq"/>
+                        <constraint firstItem="fXp-Xv-LGD" firstAttribute="leading" secondItem="fDl-yU-sxu" secondAttribute="leading" id="RWP-nw-x4i"/>
+                        <constraint firstAttribute="height" constant="64" id="WSL-mu-hkE"/>
+                        <constraint firstItem="fXp-Xv-LGD" firstAttribute="top" secondItem="fDl-yU-sxu" secondAttribute="top" constant="20" id="r87-WM-x0y"/>
+                        <constraint firstAttribute="trailing" secondItem="fXp-Xv-LGD" secondAttribute="trailing" id="xsV-u1-fEH"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GzX-LA-yf8">
+                    <color key="backgroundColor" red="0.9437649978184991" green="0.9437649978184991" blue="0.9437649978184991" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="oeQ-qg-uOx"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oMf-v1-Zsf" userLabel="meng">
+                    <color key="backgroundColor" red="0.010655268324607281" green="0.010655268324607281" blue="0.010655268324607281" alpha="0.24950132978723405" colorSpace="calibratedRGB"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="silu_camera" translatesAutoresizingMaskIntoConstraints="NO" id="E0E-Bh-Wmp">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="E0E-Bh-Wmp" secondAttribute="height" multiplier="28:29" id="Pmh-C5-F8N"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ygv-mP-N0T">
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gID-j3-DRt">
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </scrollView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="silu_left_0" translatesAutoresizingMaskIntoConstraints="NO" id="PkX-wW-N0v">
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="PkX-wW-N0v" secondAttribute="height" multiplier="81:94" constant="5.0638297872340416" id="nHe-Ww-QOI"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="silu_down" translatesAutoresizingMaskIntoConstraints="NO" id="rct-vM-LrZ">
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="rct-vM-LrZ" secondAttribute="height" multiplier="35:13" constant="-18.846153846153854" id="LBJ-t1-B2D"/>
+                            </constraints>
+                        </imageView>
+                        <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="3SN-OP-kcM">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="39" id="fQQ-6P-wuG"/>
+                                <constraint firstAttribute="height" constant="37" id="rfe-6N-BEZ"/>
+                            </constraints>
+                        </pageControl>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="gID-j3-DRt" secondAttribute="trailing" id="00m-AU-7io"/>
+                        <constraint firstItem="gID-j3-DRt" firstAttribute="leading" secondItem="Ygv-mP-N0T" secondAttribute="leading" id="64l-9Q-Zkb"/>
+                        <constraint firstAttribute="bottom" secondItem="3SN-OP-kcM" secondAttribute="bottom" constant="13" id="B9L-Eg-YeD"/>
+                        <constraint firstAttribute="bottom" secondItem="rct-vM-LrZ" secondAttribute="bottom" constant="22" id="EnJ-VS-x0G"/>
+                        <constraint firstAttribute="bottom" secondItem="gID-j3-DRt" secondAttribute="bottom" id="Etc-ws-LaE"/>
+                        <constraint firstItem="rct-vM-LrZ" firstAttribute="leading" secondItem="Ygv-mP-N0T" secondAttribute="leading" constant="170" id="Gfi-Pe-snb"/>
+                        <constraint firstAttribute="trailing" secondItem="3SN-OP-kcM" secondAttribute="trailing" constant="6" id="KFZ-6I-KQi"/>
+                        <constraint firstItem="PkX-wW-N0v" firstAttribute="top" secondItem="Ygv-mP-N0T" secondAttribute="top" constant="50" id="gji-xk-efW"/>
+                        <constraint firstItem="PkX-wW-N0v" firstAttribute="leading" secondItem="Ygv-mP-N0T" secondAttribute="leading" constant="5" id="hBd-md-tI3"/>
+                        <constraint firstAttribute="bottom" secondItem="PkX-wW-N0v" secondAttribute="bottom" constant="92" id="hEY-nc-tz5"/>
+                        <constraint firstItem="gID-j3-DRt" firstAttribute="top" secondItem="Ygv-mP-N0T" secondAttribute="top" id="sWv-Ig-jzC"/>
+                        <constraint firstAttribute="trailing" secondItem="rct-vM-LrZ" secondAttribute="trailing" constant="170" id="ssD-eE-b8q"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="LBG-Hd-Rci" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="58" id="2GA-93-Wfw"/>
+                <constraint firstAttribute="bottom" secondItem="oMf-v1-Zsf" secondAttribute="bottom" id="2gW-r3-9MV"/>
+                <constraint firstItem="dTc-2k-nvK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="84" id="3lT-FW-1VO"/>
+                <constraint firstAttribute="trailing" secondItem="GzX-LA-yf8" secondAttribute="trailing" id="5Fn-Bx-Fln"/>
+                <constraint firstAttribute="trailing" secondItem="fDl-yU-sxu" secondAttribute="trailing" id="5L2-3D-n2x"/>
+                <constraint firstItem="06D-Up-zdd" firstAttribute="leading" secondItem="LBG-Hd-Rci" secondAttribute="trailing" constant="63" id="6jb-Qr-PGD"/>
+                <constraint firstAttribute="bottom" secondItem="KHQ-p8-i3x" secondAttribute="bottom" id="7Wl-fy-LPR"/>
+                <constraint firstAttribute="trailing" secondItem="LJ3-wr-VuN" secondAttribute="trailing" constant="-19" id="9BI-mE-PlV"/>
+                <constraint firstItem="LJ3-wr-VuN" firstAttribute="leading" secondItem="hBU-YM-96C" secondAttribute="trailing" constant="93" id="9Rb-S4-jlt"/>
+                <constraint firstAttribute="trailing" secondItem="oMf-v1-Zsf" secondAttribute="trailing" id="9sr-gw-6jE"/>
+                <constraint firstItem="fDl-yU-sxu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="A4u-B6-p47"/>
+                <constraint firstItem="33a-LB-z6j" firstAttribute="leading" secondItem="7iX-tO-kN7" secondAttribute="trailing" constant="2" id="FTp-gj-CW4"/>
+                <constraint firstAttribute="trailing" secondItem="Ygv-mP-N0T" secondAttribute="trailing" id="G6R-6W-WYF"/>
+                <constraint firstItem="LBG-Hd-Rci" firstAttribute="top" secondItem="06D-Up-zdd" secondAttribute="top" id="GJZ-LO-TsL"/>
+                <constraint firstItem="Ygv-mP-N0T" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="24" id="IjN-kE-XDV"/>
+                <constraint firstAttribute="bottom" secondItem="E0E-Bh-Wmp" secondAttribute="bottom" constant="82" id="Jsq-Rj-4NP"/>
+                <constraint firstItem="fDl-yU-sxu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="P8b-GM-CTN"/>
+                <constraint firstItem="fVR-YK-bL7" firstAttribute="top" secondItem="LBG-Hd-Rci" secondAttribute="bottom" constant="78" id="RTw-me-e8F"/>
+                <constraint firstItem="LBG-Hd-Rci" firstAttribute="top" secondItem="dTc-2k-nvK" secondAttribute="bottom" constant="34" id="Scn-Sm-TnB"/>
+                <constraint firstItem="dTc-2k-nvK" firstAttribute="top" secondItem="GzX-LA-yf8" secondAttribute="bottom" constant="47" id="TsZ-L7-9C5"/>
+                <constraint firstItem="oMf-v1-Zsf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Us4-XD-EWa"/>
+                <constraint firstItem="06D-Up-zdd" firstAttribute="trailing" secondItem="GzX-LA-yf8" secondAttribute="trailing" id="WTn-B7-TZJ"/>
+                <constraint firstAttribute="trailing" secondItem="KHQ-p8-i3x" secondAttribute="trailing" id="Xeh-8y-DvZ"/>
+                <constraint firstItem="KHQ-p8-i3x" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cB9-VV-p0b"/>
+                <constraint firstItem="oMf-v1-Zsf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cnf-i4-AJV"/>
+                <constraint firstItem="E0E-Bh-Wmp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="117" id="dS5-TH-fQG"/>
+                <constraint firstItem="GzX-LA-yf8" firstAttribute="top" secondItem="fDl-yU-sxu" secondAttribute="bottom" id="eti-2o-z0G"/>
+                <constraint firstItem="LJ3-wr-VuN" firstAttribute="top" secondItem="06D-Up-zdd" secondAttribute="bottom" constant="8" symbolic="YES" id="gry-Vq-b5q"/>
+                <constraint firstAttribute="trailing" secondItem="E0E-Bh-Wmp" secondAttribute="trailing" constant="118" id="n7e-7v-CxI"/>
+                <constraint firstItem="hBU-YM-96C" firstAttribute="top" secondItem="LBG-Hd-Rci" secondAttribute="bottom" constant="1" id="oSu-iY-uLg"/>
+                <constraint firstItem="GzX-LA-yf8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="oif-tL-C4V"/>
+                <constraint firstItem="33a-LB-z6j" firstAttribute="top" secondItem="GzX-LA-yf8" secondAttribute="bottom" constant="19" id="oop-Gz-Jnh"/>
+                <constraint firstItem="fVR-YK-bL7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="66" id="psZ-mh-7Aa"/>
+                <constraint firstItem="Ygv-mP-N0T" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="r4l-e8-ew2"/>
+                <constraint firstItem="hBU-YM-96C" firstAttribute="top" secondItem="Ygv-mP-N0T" secondAttribute="bottom" constant="120" id="rXd-j6-kXN"/>
+                <constraint firstItem="33a-LB-z6j" firstAttribute="leading" secondItem="dTc-2k-nvK" secondAttribute="trailing" constant="32" id="sqn-Qv-ll4"/>
+                <constraint firstItem="KHQ-p8-i3x" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="srx-Zj-fEY"/>
+                <constraint firstItem="06D-Up-zdd" firstAttribute="leading" secondItem="hBU-YM-96C" secondAttribute="trailing" constant="14" id="t6Y-c8-9YX"/>
+                <constraint firstItem="7iX-tO-kN7" firstAttribute="top" secondItem="GzX-LA-yf8" secondAttribute="bottom" constant="27" id="zPN-l1-wh6"/>
+            </constraints>
+            <nil key="simulatedBottomBarMetrics"/>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="silu_address" width="84" height="76"/>
+        <image name="silu_book" width="133" height="125"/>
+        <image name="silu_camera" width="107" height="112"/>
+        <image name="silu_down" width="41" height="18"/>
+        <image name="silu_flower" width="90" height="114"/>
+        <image name="silu_left_0" width="74" height="79"/>
+        <image name="silu_location" width="61" height="67"/>
+        <image name="silu_map" width="375" height="667"/>
+        <image name="silu_movie" width="110" height="115"/>
+        <image name="silu_park" width="155" height="156"/>
+        <image name="silu_supermarket" width="104" height="94"/>
+    </resources>
+</document>
