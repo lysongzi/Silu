@@ -16,15 +16,14 @@
 		9DB8C17A1D9ACB34005517B4 /* LYSSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB8C1781D9ACB34005517B4 /* LYSSettingViewController.xib */; };
 		9DB8C17E1D9ACDCD005517B4 /* LYSChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB8C17C1D9ACDCD005517B4 /* LYSChangeViewController.m */; };
 		9DB8C17F1D9ACDCD005517B4 /* LYSChangeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB8C17D1D9ACDCD005517B4 /* LYSChangeViewController.xib */; };
-		9DB8C1831D9AD099005517B4 /* LYSBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB8C1811D9AD099005517B4 /* LYSBookViewController.m */; };
-		9DB8C1841D9AD099005517B4 /* LYSBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB8C1821D9AD099005517B4 /* LYSBookViewController.xib */; };
-		9DB8C1881D9AD42C005517B4 /* LYSBookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB8C1861D9AD42C005517B4 /* LYSBookDetailViewController.m */; };
-		9DB8C1891D9AD42C005517B4 /* LYSBookDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB8C1871D9AD42C005517B4 /* LYSBookDetailViewController.xib */; };
 		AB2411E41D9223E80083227F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2411E31D9223E80083227F /* main.m */; };
 		AB2411E71D9223E80083227F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2411E61D9223E80083227F /* AppDelegate.m */; };
 		AB2411ED1D9223E80083227F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2411EB1D9223E80083227F /* Main.storyboard */; };
 		AB2411EF1D9223E80083227F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2411EE1D9223E80083227F /* Assets.xcassets */; };
 		AB2411F21D9223E80083227F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2411F01D9223E80083227F /* LaunchScreen.storyboard */; };
+		AB3B5BA11DD9AB0E00F75ADC /* MemoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3B5B9F1DD9AB0E00F75ADC /* MemoryViewController.m */; };
+		AB3B5BC91DD9CA6300F75ADC /* MemoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB3B5BC81DD9CA6300F75ADC /* MemoryViewController.xib */; };
+		AB3B5BCC1DD9CF5200F75ADC /* LogoShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3B5BCB1DD9CF5200F75ADC /* LogoShowViewController.m */; };
 		AB541BC91D928686005DC0C9 /* LYSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB541BC71D928686005DC0C9 /* LYSFirstViewController.m */; };
 		AB541BCA1D928686005DC0C9 /* LYSFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB541BC81D928686005DC0C9 /* LYSFirstViewController.xib */; };
 		AB541BCF1D9286AA005DC0C9 /* LYSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB541BCD1D9286AA005DC0C9 /* LYSSecondViewController.m */; };
@@ -64,12 +63,6 @@
 		9DB8C17B1D9ACDCD005517B4 /* LYSChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSChangeViewController.h; sourceTree = "<group>"; };
 		9DB8C17C1D9ACDCD005517B4 /* LYSChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSChangeViewController.m; sourceTree = "<group>"; };
 		9DB8C17D1D9ACDCD005517B4 /* LYSChangeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSChangeViewController.xib; sourceTree = "<group>"; };
-		9DB8C1801D9AD099005517B4 /* LYSBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSBookViewController.h; sourceTree = "<group>"; };
-		9DB8C1811D9AD099005517B4 /* LYSBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSBookViewController.m; sourceTree = "<group>"; };
-		9DB8C1821D9AD099005517B4 /* LYSBookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSBookViewController.xib; sourceTree = "<group>"; };
-		9DB8C1851D9AD42C005517B4 /* LYSBookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSBookDetailViewController.h; sourceTree = "<group>"; };
-		9DB8C1861D9AD42C005517B4 /* LYSBookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSBookDetailViewController.m; sourceTree = "<group>"; };
-		9DB8C1871D9AD42C005517B4 /* LYSBookDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSBookDetailViewController.xib; sourceTree = "<group>"; };
 		AB2411DF1D9223E80083227F /* NewTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2411E31D9223E80083227F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB2411E51D9223E80083227F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +71,11 @@
 		AB2411EE1D9223E80083227F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB2411F11D9223E80083227F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB2411F31D9223E80083227F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB3B5B9E1DD9AB0E00F75ADC /* MemoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryViewController.h; sourceTree = "<group>"; };
+		AB3B5B9F1DD9AB0E00F75ADC /* MemoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryViewController.m; sourceTree = "<group>"; };
+		AB3B5BC81DD9CA6300F75ADC /* MemoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MemoryViewController.xib; sourceTree = "<group>"; };
+		AB3B5BCA1DD9CF5200F75ADC /* LogoShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogoShowViewController.h; sourceTree = "<group>"; };
+		AB3B5BCB1DD9CF5200F75ADC /* LogoShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoShowViewController.m; sourceTree = "<group>"; };
 		AB541BC61D928686005DC0C9 /* LYSFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSFirstViewController.h; sourceTree = "<group>"; };
 		AB541BC71D928686005DC0C9 /* LYSFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSFirstViewController.m; sourceTree = "<group>"; };
 		AB541BC81D928686005DC0C9 /* LYSFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSFirstViewController.xib; sourceTree = "<group>"; };
@@ -145,12 +143,11 @@
 				9DB8C17B1D9ACDCD005517B4 /* LYSChangeViewController.h */,
 				9DB8C17C1D9ACDCD005517B4 /* LYSChangeViewController.m */,
 				9DB8C17D1D9ACDCD005517B4 /* LYSChangeViewController.xib */,
-				9DB8C1801D9AD099005517B4 /* LYSBookViewController.h */,
-				9DB8C1811D9AD099005517B4 /* LYSBookViewController.m */,
-				9DB8C1821D9AD099005517B4 /* LYSBookViewController.xib */,
-				9DB8C1851D9AD42C005517B4 /* LYSBookDetailViewController.h */,
-				9DB8C1861D9AD42C005517B4 /* LYSBookDetailViewController.m */,
-				9DB8C1871D9AD42C005517B4 /* LYSBookDetailViewController.xib */,
+				AB3B5B9E1DD9AB0E00F75ADC /* MemoryViewController.h */,
+				AB3B5B9F1DD9AB0E00F75ADC /* MemoryViewController.m */,
+				AB3B5BC81DD9CA6300F75ADC /* MemoryViewController.xib */,
+				AB3B5BCA1DD9CF5200F75ADC /* LogoShowViewController.h */,
+				AB3B5BCB1DD9CF5200F75ADC /* LogoShowViewController.m */,
 			);
 			name = Me;
 			sourceTree = "<group>";
@@ -330,7 +327,7 @@
 				TargetAttributes = {
 					AB2411DE1D9223E80083227F = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = Z6AGZ494AH;
+						DevelopmentTeam = R5G98FQWCS;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -362,7 +359,6 @@
 				AB6E6FB71D9A9DAA00F276ED /* LYSSiXuSkyViewController.xib in Resources */,
 				AB541BD01D9286AA005DC0C9 /* LYSSecondViewController.xib in Resources */,
 				9DB8C17F1D9ACDCD005517B4 /* LYSChangeViewController.xib in Resources */,
-				9DB8C1891D9AD42C005517B4 /* LYSBookDetailViewController.xib in Resources */,
 				AB2411EF1D9223E80083227F /* Assets.xcassets in Resources */,
 				AB541BDA1D9286D0005DC0C9 /* LYSMeViewController.xib in Resources */,
 				AB541BD51D9286BE005DC0C9 /* LYSThirdViewController.xib in Resources */,
@@ -371,11 +367,11 @@
 				AB6E6FB11D9A550F00F276ED /* LYSLaunchViewController.xib in Resources */,
 				AB6E6FBC1D9AA3A300F276ED /* LYSSiXuEmotionViewController.xib in Resources */,
 				AB2411ED1D9223E80083227F /* Main.storyboard in Resources */,
-				9DB8C1841D9AD099005517B4 /* LYSBookViewController.xib in Resources */,
 				AB6E6FAC1D9A463F00F276ED /* LYSSiXuViewController.xib in Resources */,
 				9DB8C16F1D9982BD005517B4 /* LYSSiXianViewController.xib in Resources */,
 				AB71663D1D9B826900604CDC /* LYSCameraViewController.xib in Resources */,
 				9DB8C1741D9ABDD4005517B4 /* LYSAddEmotionViewController.xib in Resources */,
+				AB3B5BC91DD9CA6300F75ADC /* MemoryViewController.xib in Resources */,
 				AB7166421D9B9AA000604CDC /* LYSSiLuPublishViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +389,7 @@
 				AB7166411D9B9AA000604CDC /* LYSSiLuPublishViewController.m in Sources */,
 				AB541BD91D9286D0005DC0C9 /* LYSMeViewController.m in Sources */,
 				9DB8C16E1D9982BD005517B4 /* LYSSiXianViewController.m in Sources */,
+				AB3B5BA11DD9AB0E00F75ADC /* MemoryViewController.m in Sources */,
 				AB2411E71D9223E80083227F /* AppDelegate.m in Sources */,
 				AB2411E41D9223E80083227F /* main.m in Sources */,
 				AB6E6FB61D9A9DAA00F276ED /* LYSSiXuSkyViewController.m in Sources */,
@@ -402,12 +399,11 @@
 				9DB8C1791D9ACB34005517B4 /* LYSSettingViewController.m in Sources */,
 				9DB8C17E1D9ACDCD005517B4 /* LYSChangeViewController.m in Sources */,
 				9DB8C1731D9ABDD4005517B4 /* LYSAddEmotionViewController.m in Sources */,
-				9DB8C1881D9AD42C005517B4 /* LYSBookDetailViewController.m in Sources */,
 				AB541BD41D9286BE005DC0C9 /* LYSThirdViewController.m in Sources */,
-				9DB8C1831D9AD099005517B4 /* LYSBookViewController.m in Sources */,
 				AB541BCF1D9286AA005DC0C9 /* LYSSecondViewController.m in Sources */,
 				AB6E6FBB1D9AA3A300F276ED /* LYSSiXuEmotionViewController.m in Sources */,
 				AB6E6FAB1D9A463F00F276ED /* LYSSiXuViewController.m in Sources */,
+				AB3B5BCC1DD9CF5200F75ADC /* LogoShowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,11 +521,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z6AGZ494AH;
+				DEVELOPMENT_TEAM = R5G98FQWCS;
 				INFOPLIST_FILE = NewTry/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bingo.silu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingo.silu2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -538,11 +534,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z6AGZ494AH;
+				DEVELOPMENT_TEAM = R5G98FQWCS;
 				INFOPLIST_FILE = NewTry/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bingo.silu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingo.silu2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

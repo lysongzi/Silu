@@ -41,7 +41,6 @@
     self.scrollView.backgroundColor = [UIColor colorWithRGBHexString:LYS_DARK_GRAY_TEXT];
     self.scrollView.contentSize = CGSizeMake(cWidth, cHeight);
     self.scrollView.bounces = NO;
-    
 }
 
 - (void)jumpToViewPhoto

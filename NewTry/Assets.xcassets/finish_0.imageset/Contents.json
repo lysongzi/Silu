@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "登陆-成就_03.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "时间轴长.png",
       "scale" : "2x"
     },
     {

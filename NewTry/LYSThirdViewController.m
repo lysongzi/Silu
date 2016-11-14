@@ -8,12 +8,14 @@
 
 #import "LYSThirdViewController.h"
 #import "LYSSiXuViewController.h"
-#import "LYSSiXuSkyViewController.h"
 #import "LYSAddEmotionViewController.h"
+#import "LogoShowViewController.h"
 
 #import "UIColorEX.h"
 
 @interface LYSThirdViewController ()
+
+@property (strong, nonatomic) NSArray *images;
 
 @end
 
@@ -22,6 +24,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+}
+
+- (NSArray *)getImageArray
+{
+    if (!self.images) {
+        self.images = @[@"logo_0", @"logo_1", @"logo_2", ];
+    }
+    return self.images;
 }
 
 - (IBAction)tapMeteor:(id)sender
@@ -37,10 +47,12 @@
 
 - (IBAction)tapSky:(id)sender
 {
-    LYSSiXuSkyViewController *vc = [LYSSiXuSkyViewController new];
-    vc.hidesBottomBarWhenPushed = YES;
-    
-    [self.navigationController pushViewController:vc animated:YES];
+    NSInteger index = random() * 1000 % 3;
+    NSString *imageName = [self getImageArray][index];
+        
+    LogoShowViewController *logo = [[LogoShowViewController alloc] initWithImageName:imageName showBtn:YES];
+    [self.view addSubview:logo];
+    logo.ctr = self.navigationController;
 }
 
 - (IBAction)tapEmotion:(id)sender

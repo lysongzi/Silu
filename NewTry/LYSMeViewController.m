@@ -9,7 +9,7 @@
 #import "LYSMeViewController.h"
 #import "LYSSettingViewController.h"
 #import "LYSChangeViewController.h"
-#import "LYSBookViewController.h"
+#import "MemoryViewController.h"
 
 @interface LYSMeViewController ()
 
@@ -28,7 +28,7 @@
 
 - (IBAction)tapBook:(id)sender
 {
-    LYSBookViewController *vc = [LYSBookViewController new];
+    MemoryViewController *vc = [MemoryViewController new];
     vc.hidesBottomBarWhenPushed = YES;
     
     [self.navigationController pushViewController:vc animated:YES];
