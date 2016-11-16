@@ -56,6 +56,7 @@
     
     LogoShowViewController *logo = [[LogoShowViewController alloc] initWithImageName:imageName showBtn:NO];
     [self.view addSubview:logo];
+    [logo show];
 }
 
 - (IBAction)backClick:(id)sender

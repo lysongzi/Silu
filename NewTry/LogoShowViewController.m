@@ -21,11 +21,17 @@
 {
     self = [super init];
     if (self) {
+        self.hidden = YES;
         self.showBtn = showBtn;
         CGFloat width = [UIScreen mainScreen].bounds.size.width;
         CGFloat height = [UIScreen mainScreen].bounds.size.height;
         CGFloat picWidth = width - 20;
-        CGFloat picHeight = picWidth * 888 / 702;
+        CGFloat picHeight = 0.f;
+        if (showBtn) {
+            picHeight = picWidth * 767 / 702;
+        }else{
+            picHeight = picWidth * 888 / 702;
+        }
         CGFloat picMarginTop = 75;
         
         self.frame = CGRectMake(0, 0, width, height);
@@ -50,6 +56,26 @@
     return self;
 }
 
+- (void)show
+{
+    self.alpha = .0f;
+    self.hidden = NO;
+    __weak typeof(self) weakSelf = self;
+    [UIView animateWithDuration:0.5 animations:^{
+        weakSelf.alpha = 1.0f;
+    }];
+}
+
+- (void)dismiss
+{
+    __weak typeof(self) weakSelf = self;
+    [UIView animateWithDuration:0.5 animations:^{
+        weakSelf.alpha = .0f;
+    } completion:^(BOOL finished) {
+        [weakSelf removeFromSuperview];
+    }];
+}
+
 - (void)close
 {
     if (self.showBtn && self.ctr) {
@@ -58,7 +84,7 @@
         
         [self.ctr pushViewController:vc animated:YES];
     }
-    [self removeFromSuperview];
+    [self dismiss];
 }
 
 @end

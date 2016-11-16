@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LYSFirstViewController">
             <connections>
+                <outlet property="dateimage" destination="O19-yw-9lv" id="64O-Hc-b0C"/>
                 <outlet property="scrollView" destination="cCf-dJ-EoE" id="1h7-Cy-ryB"/>
                 <outlet property="sline" destination="KLR-1P-rnc" id="F42-yd-fYw"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>

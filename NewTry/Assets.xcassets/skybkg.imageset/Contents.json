@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "流星瓶背景.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "流星瓶 长条.png",
       "scale" : "2x"
     },
     {

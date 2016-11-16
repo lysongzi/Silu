@@ -47,12 +47,10 @@
 
 - (IBAction)tapSky:(id)sender
 {
-    NSInteger index = random() * 1000 % 3;
-    NSString *imageName = [self getImageArray][index];
-        
-    LogoShowViewController *logo = [[LogoShowViewController alloc] initWithImageName:imageName showBtn:YES];
+    LogoShowViewController *logo = [[LogoShowViewController alloc] initWithImageName:@"start500" showBtn:YES];
     [self.view addSubview:logo];
     logo.ctr = self.navigationController;
+    [logo show];
 }
 
 - (IBAction)tapEmotion:(id)sender

@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -19,13 +22,16 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6jj-5q-fjO">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="流星瓶" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zmU-mb-XA3">
+                            <rect key="frame" x="0.0" y="24" width="375" height="44"/>
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2lz-pR-GZU">
+                            <rect key="frame" x="4" y="24" width="36" height="40"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="40" id="Z6P-R1-h1a"/>
                                 <constraint firstAttribute="width" constant="36" id="oog-mw-ya9"/>
@@ -47,8 +53,15 @@
                         <constraint firstAttribute="bottom" secondItem="zmU-mb-XA3" secondAttribute="bottom" constant="-4" id="vnV-AZ-fbf"/>
                     </constraints>
                 </view>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="snh-ET-bGh"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skybkg" translatesAutoresizingMaskIntoConstraints="NO" id="cCP-if-2HM">
+                    <rect key="frame" x="0.0" y="64" width="375" height="604"/>
+                </imageView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="snh-ET-bGh">
+                    <rect key="frame" x="0.0" y="64" width="375" height="604"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </scrollView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z9z-2X-u4L">
+                    <rect key="frame" x="0.0" y="64" width="375" height="1"/>
                     <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="1" id="TOC-cg-RoB"/>
@@ -58,6 +71,8 @@
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="6jj-5q-fjO" secondAttribute="trailing" id="7eq-yf-msX"/>
+                <constraint firstAttribute="trailing" secondItem="cCP-if-2HM" secondAttribute="trailing" id="Bs8-Du-Ylz"/>
+                <constraint firstItem="cCP-if-2HM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="FAt-eE-rw0"/>
                 <constraint firstItem="snh-ET-bGh" firstAttribute="top" secondItem="6jj-5q-fjO" secondAttribute="bottom" id="GGD-Dz-nBH"/>
                 <constraint firstItem="6jj-5q-fjO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="SOL-h8-XzY"/>
                 <constraint firstItem="6jj-5q-fjO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="TD3-Wv-EGf"/>
@@ -66,7 +81,9 @@
                 <constraint firstItem="snh-ET-bGh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Y6E-cL-oIt"/>
                 <constraint firstAttribute="trailing" secondItem="Z9z-2X-u4L" secondAttribute="trailing" id="hZu-YC-Bqy"/>
                 <constraint firstAttribute="bottom" secondItem="snh-ET-bGh" secondAttribute="bottom" constant="-1" id="iq9-BV-Mr5"/>
+                <constraint firstAttribute="bottom" secondItem="cCP-if-2HM" secondAttribute="bottom" constant="-1" id="qkL-sC-nI3"/>
                 <constraint firstItem="Z9z-2X-u4L" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="sEB-RU-ese"/>
+                <constraint firstItem="cCP-if-2HM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="ziu-0T-d6T"/>
             </constraints>
             <nil key="simulatedBottomBarMetrics"/>
             <point key="canvasLocation" x="34.5" y="53.5"/>
@@ -74,5 +91,6 @@
     </objects>
     <resources>
         <image name="backBtn" width="35" height="35"/>
+        <image name="skybkg" width="750" height="1334"/>
     </resources>
 </document>

@@ -38,7 +38,6 @@
     [imageView addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(jumpToViewPhoto)]];
     
     [self.scrollView addSubview:imageView];
-    self.scrollView.backgroundColor = [UIColor colorWithRGBHexString:LYS_DARK_GRAY_TEXT];
     self.scrollView.contentSize = CGSizeMake(cWidth, cHeight);
     self.scrollView.bounces = NO;
 }

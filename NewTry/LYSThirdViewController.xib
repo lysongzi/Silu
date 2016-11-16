@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -15,10 +18,14 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sixu_bkg_dark" translatesAutoresizingMaskIntoConstraints="NO" id="ggh-bN-o43"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sixu_bkg_dark" translatesAutoresizingMaskIntoConstraints="NO" id="ggh-bN-o43">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RzO-23-wxX">
+                    <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="思绪" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DI0-nJ-qwj">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
@@ -33,17 +40,8 @@
                         <constraint firstAttribute="bottom" secondItem="DI0-nJ-qwj" secondAttribute="bottom" id="zow-5j-htG"/>
                     </constraints>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rp-Em-qa0">
-                    <constraints>
-                        <constraint firstAttribute="width" constant="73" id="9ZF-A4-T3B"/>
-                        <constraint firstAttribute="height" constant="89" id="JrC-ek-JiL"/>
-                    </constraints>
-                    <state key="normal" image="sixu_liuxing"/>
-                    <connections>
-                        <action selector="tapSky:" destination="-1" eventType="touchUpInside" id="VNm-cU-YTa"/>
-                    </connections>
-                </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgT-Pt-OAZ">
+                    <rect key="frame" x="162" y="497" width="62" height="84"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="84" id="36s-vS-gXQ"/>
                         <constraint firstAttribute="width" constant="62" id="wgM-yP-PUv"/>
@@ -51,6 +49,17 @@
                     <state key="normal" image="sixu_add"/>
                     <connections>
                         <action selector="tapEmotion:" destination="-1" eventType="touchUpInside" id="7QB-1T-RPI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rp-Em-qa0">
+                    <rect key="frame" x="81" y="492" width="73" height="89"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="73" id="9ZF-A4-T3B"/>
+                        <constraint firstAttribute="height" constant="89" id="JrC-ek-JiL"/>
+                    </constraints>
+                    <state key="normal" image="sixu_liuxing"/>
+                    <connections>
+                        <action selector="tapSky:" destination="-1" eventType="touchUpInside" id="VNm-cU-YTa"/>
                     </connections>
                 </button>
             </subviews>
@@ -63,11 +72,11 @@
                 <constraint firstAttribute="bottom" secondItem="2rp-Em-qa0" secondAttribute="bottom" constant="86" id="VE5-in-CPL"/>
                 <constraint firstItem="RzO-23-wxX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="X2C-bZ-oTM"/>
                 <constraint firstItem="ggh-bN-o43" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Xin-ev-Q8B"/>
-                <constraint firstItem="2rp-Em-qa0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="aR0-yT-QVB"/>
+                <constraint firstItem="2rp-Em-qa0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="81" id="aR0-yT-QVB"/>
                 <constraint firstAttribute="trailing" secondItem="RzO-23-wxX" secondAttribute="trailing" id="dPh-6M-K6M"/>
                 <constraint firstAttribute="trailing" secondItem="ggh-bN-o43" secondAttribute="trailing" id="gFV-Bf-EgM"/>
                 <constraint firstAttribute="bottom" secondItem="dgT-Pt-OAZ" secondAttribute="bottom" constant="86" id="jfW-qX-2hL"/>
-                <constraint firstItem="dgT-Pt-OAZ" firstAttribute="leading" secondItem="2rp-Em-qa0" secondAttribute="trailing" constant="15" id="xYQ-W3-brt"/>
+                <constraint firstItem="dgT-Pt-OAZ" firstAttribute="leading" secondItem="2rp-Em-qa0" secondAttribute="trailing" constant="8" id="xYQ-W3-brt"/>
             </constraints>
             <nil key="simulatedBottomBarMetrics"/>
             <point key="canvasLocation" x="35.5" y="53.5"/>

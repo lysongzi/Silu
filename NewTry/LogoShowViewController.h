@@ -14,4 +14,6 @@
 
 - (instancetype)initWithImageName:(NSString *)imagePath showBtn:(BOOL)showBtn;
 
+- (void)show;
+
 @end
