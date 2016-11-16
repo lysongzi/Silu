@@ -41,7 +41,7 @@
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgT-Pt-OAZ">
-                    <rect key="frame" x="162" y="497" width="62" height="84"/>
+                    <rect key="frame" x="166" y="464" width="62" height="84"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="84" id="36s-vS-gXQ"/>
                         <constraint firstAttribute="width" constant="62" id="wgM-yP-PUv"/>
@@ -52,7 +52,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rp-Em-qa0">
-                    <rect key="frame" x="81" y="492" width="73" height="89"/>
+                    <rect key="frame" x="53" y="459" width="73" height="89"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="73" id="9ZF-A4-T3B"/>
                         <constraint firstAttribute="height" constant="89" id="JrC-ek-JiL"/>
@@ -69,14 +69,14 @@
                 <constraint firstItem="dgT-Pt-OAZ" firstAttribute="top" secondItem="2rp-Em-qa0" secondAttribute="bottom" constant="-84" id="Im5-zk-KFf"/>
                 <constraint firstItem="ggh-bN-o43" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="QqD-5J-I5f"/>
                 <constraint firstAttribute="bottom" secondItem="ggh-bN-o43" secondAttribute="bottom" id="U5I-Qr-W9s"/>
-                <constraint firstAttribute="bottom" secondItem="2rp-Em-qa0" secondAttribute="bottom" constant="86" id="VE5-in-CPL"/>
+                <constraint firstAttribute="bottom" secondItem="2rp-Em-qa0" secondAttribute="bottom" constant="119" id="VE5-in-CPL"/>
                 <constraint firstItem="RzO-23-wxX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="X2C-bZ-oTM"/>
                 <constraint firstItem="ggh-bN-o43" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Xin-ev-Q8B"/>
-                <constraint firstItem="2rp-Em-qa0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="81" id="aR0-yT-QVB"/>
+                <constraint firstItem="2rp-Em-qa0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="53" id="aR0-yT-QVB"/>
                 <constraint firstAttribute="trailing" secondItem="RzO-23-wxX" secondAttribute="trailing" id="dPh-6M-K6M"/>
                 <constraint firstAttribute="trailing" secondItem="ggh-bN-o43" secondAttribute="trailing" id="gFV-Bf-EgM"/>
-                <constraint firstAttribute="bottom" secondItem="dgT-Pt-OAZ" secondAttribute="bottom" constant="86" id="jfW-qX-2hL"/>
-                <constraint firstItem="dgT-Pt-OAZ" firstAttribute="leading" secondItem="2rp-Em-qa0" secondAttribute="trailing" constant="8" id="xYQ-W3-brt"/>
+                <constraint firstAttribute="bottom" secondItem="dgT-Pt-OAZ" secondAttribute="bottom" constant="119" id="jfW-qX-2hL"/>
+                <constraint firstItem="dgT-Pt-OAZ" firstAttribute="leading" secondItem="2rp-Em-qa0" secondAttribute="trailing" constant="40" id="xYQ-W3-brt"/>
             </constraints>
             <nil key="simulatedBottomBarMetrics"/>
             <point key="canvasLocation" x="35.5" y="53.5"/>
